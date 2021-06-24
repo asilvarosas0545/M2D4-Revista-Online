@@ -1,6 +1,7 @@
 //Contenido
 .contenido{
   //width: 960px;
+  width: 100%;
   margin: 0 auto;
   &__news{
     //width: 700px;
@@ -16,13 +17,17 @@
     @include respond-to('medium') {
       display: block;
     }
+    @include respond-to('large') {
+      display: block;
+    }
+    @include respond-to('extralarge') {
+      display: block;
+    }
   }
 }
 .noticia{
   display: inline-block;
-  @include respond-to('small') {
-    width: 100%;
-  }
+  width: 100%;
   @include respond-to('medium') {
     width: 47%;
   }

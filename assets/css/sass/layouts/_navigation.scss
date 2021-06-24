@@ -30,11 +30,14 @@
       //andres
       padding: 0 15px;
     }
+    &--nosotros{
+      display: none;
+      @include respond-to('small') {
+        display: block;
+      }
+    }
   }
   &__search{
     border-radius: 30px;
-    @include respond-to('medium') {
-      //contenido
-    }
   }
 }
