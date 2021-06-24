@@ -1,0 +1,22 @@
+// main.css
+// Manifest
+
+//Asbtracts
+@import 'abstract/variables';
+@import 'abstract/mixin';
+//Vendors
+
+//Base
+@import 'base/typography';
+@import 'base/reset';
+//Layout
+@import "layouts/grid",
+        "layouts/navigation",
+        "layouts/contenido",
+        "layouts/newsletter",
+        "layouts/footer";
+//Components
+@import "components/buttons";
+//Pages
+@import "page/index";
+//Theme

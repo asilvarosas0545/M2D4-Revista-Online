@@ -1,0 +1,40 @@
+//Navigation
+.navbar{
+  //width: 960px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  &__logo{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  &__links{
+    display: inline-block;
+    //width: 840px;
+    //andres
+    float: right;
+    //andres
+    & ul{
+      list-style-type: none;
+      float: right;
+      margin: 0;
+    }
+    //andres
+    & ul li{
+      float: left;
+    }
+    & ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      //andres
+      padding: 0 15px;
+    }
+  }
+  &__search{
+    border-radius: 30px;
+    @include respond-to('medium') {
+      //contenido
+    }
+  }
+}
