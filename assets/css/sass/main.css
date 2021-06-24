@@ -295,11 +295,7 @@ body {
 }
 .contenido__izquierda {
   float: right;
-}
-@media (min-width: 576px) {
-  .contenido__izquierda {
-    display: none;
-  }
+  display: none;
 }
 @media (min-width: 768px) {
   .contenido__izquierda {
